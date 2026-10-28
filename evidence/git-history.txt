@@ -1,0 +1,12 @@
+*   3695430 (HEAD -> main) Merge feature/project-details into main
+|\  
+| * 186a152 (feature/project-details) Add project details section with repository link
+|/  
+* 45a3f2b Style responsive layout with Flexbox and mobile media queries
+* 5f8b859 Create semantic project page and document setup
+Merge commit: 36954301959f4e06cf8aa61cb3682a7ef4fa1a7d
+Parents: 45a3f2b039919019ae78b0de8d680bc9cc4e2ced 186a152ef012265c4d2a4220d58bc87efdb55a9b
+Subject: Merge feature/project-details into main
+ index.html | 4 ++++
+ styles.css | 7 +++++--
+ 2 files changed, 9 insertions(+), 2 deletions(-)
