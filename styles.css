@@ -1,5 +1,3 @@
-@import url('');
-
 :root { color-scheme: light; --ink: #192a29; --muted: #5c6c66; --green: #24654a; --paper: #f5f6ef; --line: #dce2d6; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 2rem; }
@@ -59,6 +57,11 @@ h3 { font-size: 1.05rem; letter-spacing: -.02em; margin: 0 0 .65rem; }
 .approach { padding-block: 2.5rem 4rem; max-width: 42rem; }
 .approach p:not(.eyebrow) { color: var(--muted); font-size: .95rem; }
 .text-link { font-size: .85rem; color: var(--green); font-weight: 650; }
+.project-details { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem; background: #e7eddf; border: 1px solid #d3ddc9; padding: clamp(1.5rem, 4vw, 3rem); border-radius: .65rem; margin-bottom: 4rem; }
+.project-details>div { flex: 1 1 18rem; }
+.project-details .eyebrow { margin-bottom: .65rem; }
+.project-details p:not(.eyebrow) { color: var(--muted); max-width: 34rem; margin-bottom: 0; font-size: .9rem; }
+.project-details .button { flex-shrink: 0; }
 .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.7rem; border-top: 1px solid var(--line); }
 .site-footer p, .site-footer>a:last-child { font-size: .75rem; color: var(--muted); }
 @media (max-width: 850px) {
