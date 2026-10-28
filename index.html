@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive full stack project portfolio built with semantic HTML and CSS Flexbox.">
+  <title>My Full Stack Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Fullstack home"><span class="brand-mark" aria-hidden="true">f.</span> fullstack<span class="brand-dot">/</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#projects">Projects</a>
+      <a href="#approach">Approach</a>
+      <a class="nav-cta" href="https://github.com/atharva1232/My-Full-Stack-Project">View source <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> LEARN. BUILD. ITERATE.</p>
+        <h1 id="page-title">My Full Stack<br><span>Project</span><span class="accent">.</span></h1>
+        <p class="hero-description">From the first line of HTML to a thoughtful, responsive experience. A small project with a solid foundation.</p>
+        <a class="button" href="#projects">Explore the project <span aria-hidden="true">↗</span></a>
+        <div class="tech-list" aria-label="Project technologies"><span>HTML5</span><span>CSS3</span><span>Git &amp; GitHub</span></div>
+      </div>
+      <div class="code-art" aria-label="Illustration of the project structure" role="img">
+        <div class="window-bar"><span></span><span></span><span></span><p>project / index.html</p></div>
+        <div class="code-lines" aria-hidden="true">
+          <p><span class="line-number">01</span><span class="code-purple">&lt;main&gt;</span></p>
+          <p><span class="line-number">02</span>  &lt;section <span class="code-green">class</span>=<span class="code-yellow">"ideas"</span>&gt;</p>
+          <p><span class="line-number">03</span>    &lt;h1&gt;Build something.&lt;/h1&gt;</p>
+          <p><span class="line-number">04</span>    &lt;p&gt;Make it yours.&lt;/p&gt;</p>
+          <p><span class="line-number">05</span>  &lt;/section&gt;</p>
+          <p><span class="line-number">06</span><span class="code-purple">&lt;/main&gt;</span></p>
+        </div>
+        <div class="terminal"><span aria-hidden="true">❯</span> git commit -m "Bring ideas to life"<br><span class="terminal-result">✓ One step closer.</span></div>
+        <div class="floating-label"><span aria-hidden="true">↔</span> Made for every screen</div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="eyebrow">THE BUILDING BLOCKS</p><h2 id="projects-title">Simple tools. Real possibilities.</h2></div><p>Three essentials working together<br>to turn an idea into a webpage.</p></div>
+      <div class="card-grid">
+        <article class="project-card"><div class="card-top"><span class="card-icon" aria-hidden="true">&lt;/&gt;</span><span class="card-number">01</span></div><h3>A meaningful structure</h3><p>Semantic HTML gives every section a purpose, with clear headings and easy navigation.</p><span class="tag">HTML5 · ACCESSIBILITY</span></article>
+        <article class="project-card"><div class="card-top"><span class="card-icon" aria-hidden="true">↔</span><span class="card-number">02</span></div><h3>Room to adapt</h3><p>Flexbox, fluid sizing and media queries keep the layout comfortable on phones and desktops.</p><span class="tag">CSS3 · RESPONSIVE DESIGN</span></article>
+        <article class="project-card"><div class="card-top"><span class="card-icon" aria-hidden="true">⑂</span><span class="card-number">03</span></div><h3>Every change counts</h3><p>Meaningful commits and a dedicated feature branch make the project's progress easy to follow.</p><span class="tag">GIT · VERSION CONTROL</span></article>
+      </div>
+    </section>
+
+    <section id="approach" class="approach" aria-labelledby="approach-title"><p class="eyebrow">THE APPROACH</p><h2 id="approach-title">Start small. Keep improving.</h2><p>This static frontend is a starting point for a full stack journey. Build a clear structure, make it responsive, and track each improvement with Git.</p><a class="text-link" href="https://github.com/atharva1232/My-Full-Stack-Project">Follow the code on GitHub <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home">fullstack<span class="brand-dot">/</span></a><p>Built with curiosity. Tracked with Git.</p><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
